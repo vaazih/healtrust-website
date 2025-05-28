@@ -1,16 +1,444 @@
-header {
+header{
+    width: 100%;
+    position: absolute;
+}
+
+.header-cnt {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     color: white;
+    padding: 40px;
+    width: 100%;
+    gap: 100px;
+    z-index: 100;
+    flex-wrap: wrap;
 }
 nav ul{
     display: flex;
     list-style: none;
-    gap: 25px;
+    gap: 50px;
+    justify-content: center;
+    align-items: flex-start;
     
 }
  nav a{
+    display: flex;
     text-decoration: none;
     color: white;
+    align-items: center;
+    text-align: center;
+    
+   
  }
+ 
+
+.bgpicture{
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+}
+
+.staring-button{
+   border-radius: 50px;
+   color: white;
+   padding: 6px 15px;
+   border-style: solid;
+}
+
+#hero{
+    background-image: url(portrait-man-woman-wearing-medical-gowns-holding-ct-scan_23-2149529493\ 1.png);
+    height: 100vh;
+    background-size: cover;
+    
+}
+.hero-cnt{
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 40px;
+    color: white;
+   
+}
+.nxt-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+
+}
+.staring-video-button{
+   border-radius: 50px;
+   color: white;
+   padding: 6px 12px;
+   margin: 0;
+   border-style: solid;
+   display: flex;
+
+}
+.nxt-line p{
+    margin: 0;
+ 
+}
+.staring-video-button img{
+ width: 24px;
+ height: 24px;
+ 
+
+ 
+}
+
+/* section2 */
+
+.col-md-6 img{
+    padding: 10px;
+    background-color: rgba(65, 94, 255, 0.265);
+    border-radius: 10px;
+    
+}
+
+.intro-img img{
+    max-width: 400px;
+    height: auto;
+    
+}
+
+.col-md-7 span{
+    padding: 4px 8px;
+    background-color: white;
+    border-radius: 25px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.container-bg{
+    padding: 35px;
+    background-color: #f9c7c719;
+    border-radius: 20px;
+    
+}
+
+.srv-btn{
+    background-color: rgb(65, 95, 255);
+    padding: 9px 18px;
+    color: white;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 38px;
+    padding-top: 15px;
+}
+
+.col-md-7 p{
+    font-size: 14px;
+}
+
+.col-md-7 .row{
+    flex-wrap: nowrap;
+    gap: 25px;
+}
+
+.two-section{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    gap: 11px;
+ 
+}
+h5{
+    padding: 6px 0;
+    font-size: 16px;
+}
+
+#health-services{
+    margin: 100px;
+}
+
+/* section3 */
+
+.news-tips{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.news-tips span{
+    padding: 7px 15px;
+    background-color: rgb(226,229,250);
+    color: rgb(65,95,255);
+    border-radius: 20px;
+}
+
+.three-btns{
+    display: flex;
+    gap: 10px;
+    padding: 1rem 0;
+}
+
+.three-btns p{
+    padding: 5px 10px;
+    border: 0.5px solid;
+    border-radius: 25px;
+    margin: 0;
+}
+
+
+.news-tips .image{
+    position: relative;
+}
+
+.news-tips .image img{
+    max-width: 100%;
+}
+
+.news-tips .col-4 span{
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    padding: 7px 15px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.news-tips .cntnt{
+    text-align: start;
+}
+
+.news-tips h3{
+    padding-top: 15px;
+}
+
+.content .learn-more{
+    padding: 7px 15px;
+    color: rgb(65,95,255);
+    border: 2px solid rgb(65,95,255);
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+/* section 4 */
+
+.community{
+    text-align: center;
+    padding: 10px;
+}
+
+.community .row{
+    align-items: center;
+    text-align: start;
+    padding-top: 30px;
+}
+
+.community .image img{
+    border-radius: 15px;
+}
+
+.community .content p{
+    padding-bottom: 60px;
+    font-size: smaller;
+}
+
+.community span{
+    padding: 7px 15px;
+    background-color: rgb(226,229,250);
+    color: rgb(65,95,255);
+    border-radius: 20px;
+}
+
+.community .content h3{
+    font-weight: 700;
+}
+
+#community{
+    margin: 100px;
+}
+
+
+ /* section 5 */
+
+.feedback{
+    position: relative;
+    margin-top: 45px;
+    padding: 50px 30px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding-bottom: 75px;
+}
+
+.feedback .col-md-3 img{
+    overflow: clip;
+    max-width: -webkit-fill-available;
+}
+
+.scroll{
+    position: relative;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.line-1{
+    position: absolute;
+    opacity: 1;
+    width: 20%;
+    color: #607ACD;
+    border-top: solid 5px;
+    border-radius: 25px;
+}
+
+.line-2{
+    opacity: 1;
+    border-top: solid 5px;
+    border-radius: 25px;
+    width: 90%;
+    color: rgb(216,220,242);
+}
+
+.testimonial span{
+    padding: 7px 15px;
+    background-color: white;
+    color: #607ACD;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.feedback .row{
+    align-items: center;
+    
+}
+
+.testimonial h5{
+    color: #607ACD;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 0;
+
+}
+
+.testimonial .msg{
+    padding-bottom: 0px;
+    padding-top: 20px;
+    font-size: small;
+}
+
+/* section 6 */
+
+.quote p{
+    max-width: 70%;
+    opacity: .75;
+}
+
+
+
+.email input{
+    background-color: #ffffff3f;
+    border-radius: 10px;
+    padding: 6px 0;
+    border: none;
+    padding-left: 15px;
+
+}
+
+.email label{
+    background-color: #607ACD;
+    padding: 7px 15px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: rgb(48, 48, 48);
+    color: #ffffff;
+    padding: 10px 50px;
+    padding-top: 120px;
+}
+
+footer{
+    position: relative;
+}
+
+.quote{
+    position: absolute;
+    padding: 30px 35px;
+    color: #ffffff;
+    background-color: #607ACD;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin: 0 auto;
+    top: -50px;
+    right: 0;
+    left: 0;
+    width: 90% !important;
+    max-width: 1150px !important;
+    
+
+
+}
+.quote-btn{
+    min-width: 100px;
+    background-color: rgb(232,241 ,254);
+    color: #607ACD;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+
+.email p{
+    opacity: .8;
+    font-size: medium;
+    max-width: 405px;
+
+}
+
+.email h3{
+    max-width: 560px;
+    font-size: 40px;
+    position: relative;
+}
+
+.about{
+    display: flex;
+    list-style: none;
+    max-width: max-content;
+    flex-direction: column;
+}
+
+.email{
+    max-width: fit-content;
+    
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about li{
+    padding-bottom: 5px;
+
+}
+
+.email input::placeholder{
+    color: #ffffff;
+}
+
+.footer-logo{
+    height: 37px;
+}
+
+.footer-bottom p{
+    margin: 0;
+}
+
+.qoute-cntnt{
+    padding-left: 50px;
+}
+
